@@ -8,8 +8,8 @@ metadata:
 spec:
   destination:
     namespace: guestbook
-    name: kind
-  project: in-cluster
+    name: in-cluster
+  project: default
   source:
     path: guestbook
     repoURL: https://github.com/argoproj/argocd-example-apps.git
