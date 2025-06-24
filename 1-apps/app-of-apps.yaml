@@ -5,7 +5,7 @@ metadata:
 spec:
   destination:
     name: in-cluster
-    namespace: openshift-gitops
+    namespace: argocd
   source:
     path: 1-apps/apps
     repoURL: 'https://github.com/mmayeras/argocd-samples'
