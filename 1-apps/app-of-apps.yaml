@@ -8,7 +8,7 @@ spec:
     namespace: argocd
   source:
     path: 1-apps/apps
-    repoURL: 'https://github.com/mmmayeras/argocd-samples'
+    repoURL: 'https://github.com/mmayeras/argocd-samples'
     targetRevision: main
   project: default
   # syncPolicy:
