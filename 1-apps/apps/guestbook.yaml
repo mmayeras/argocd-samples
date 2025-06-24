@@ -9,7 +9,7 @@ spec:
   destination:
     namespace: guestbook
     name: kind
-  project: default
+  project: in-cluster
   source:
     path: guestbook
     repoURL: https://github.com/argoproj/argocd-example-apps.git
